@@ -5,6 +5,7 @@ I'm 永琪。Here is my weekly learning notes. :)
 - [week 2] 
 - [week 3]
 - [week 4]
+- [week 6]
 
 
 
@@ -90,6 +91,10 @@ I'm 永琪。Here is my weekly learning notes. :)
 *簡單概念：有一串list，取一個點當“基準點”，右邊都比他小（想成一個list，裡面是亂的），左邊都比他大（想成另一個list，亂的），現有兩個list，重複步驟。
 *適用於**資料量大**時。
 
+
+
+## week 6
+1**hash sort**
 
 
 
