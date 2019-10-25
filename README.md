@@ -68,6 +68,8 @@ I'm 永琪。Here is my weekly learning notes. :)
    ～補充O(1)：陣列讀取:代表著不管你輸入多少個東西，程式都會在**同一個時間跑完**. 
    
 
+## 插播
+![image](https://github.com/hello02923/lai/blob/master/截圖%202019-10-25%20下午1.42.42.png)
 
 
 ## week 3
