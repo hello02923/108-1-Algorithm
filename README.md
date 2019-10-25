@@ -86,16 +86,30 @@ I'm 永琪。Here is my weekly learning notes. :)
 
 
 2.**Quick Sort**. 
->
+>像二分法，分成左邊部分和右邊部分
 
 *簡單概念：有一串list，取一個點當“基準點”，右邊都比他小（想成一個list，裡面是亂的），左邊都比他大（想成另一個list，亂的），現有兩個list，重複步驟。
 *適用於**資料量大**時。
 
 
 
-## week 6
-1**hash sort**
 
+## week6  
+
+1.**heap sort**
+> 特性：「parent-child」之關係，從左往右
+> 分成：max heap(大到小)/min heap(小到大)
+  **MaxHeapify**
+> 概念：由上而下，對有child的node進行調整。
+a.把「第一個node」和「最後一個node」互換位置。  
+b.假裝最後一個node消失不見. 
+c.對「第一個node」進行MaxHeapify()。  
+
+
+**********************************************************
+#資料來源：
+
+heap sort:http://alrightchiu.github.io/SecondRound/comparison-sort-heap-sortdui-ji-pai-xu-fa.html
 
 
 
