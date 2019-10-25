@@ -30,14 +30,16 @@ I'm 永琪。Here is my weekly learning notes. :)
  > Topic: Design a linked list
 
 1. What's class?
-    * Class，類別，可視為屬性集合而非所有物。  
-    * def __init__(self,名字,年齡)，因為self是class本身 所以第一個不用更動. 
-     接下來再設定. 
-     self.名字=名字. 
-     self.年齡=年齡. 
-     在這邊self.的設定 就代表你之後可以用的class屬性. 
-     *temp是temporary的縮寫，代表一個“臨時”的變量. 
-     *return語句用於退出函数。  
+    * Class，類別，可視為屬性集合而非所有物。    
+    
+    * def __init__(self,名字,年齡)，因為self是class本身 所以第一個不用更動.   
+    
+     接下來再設定.   
+     self.名字=名字.   
+     self.年齡=年齡.   
+     在這邊self.的設定 就代表你之後可以用的class屬性.   
+     *temp是temporary的縮寫，代表一個“臨時”的變量.   
+     *return語句用於退出函数。    
      
      
      
