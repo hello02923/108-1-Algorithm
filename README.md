@@ -31,20 +31,14 @@ I'm 永琪。Here is my weekly learning notes. :)
 
 1. What's class?
     * Class，類別，可視為屬性集合而非所有物。    
-    
     * def __init__(self,名字,年齡)，因為self是class本身 所以第一個不用更動.   
-    
-     接下來再設定.   
+    *接下來再設定.   
      self.名字=名字.   
      self.年齡=年齡.   
      在這邊self.的設定 就代表你之後可以用的class屬性.   
      *temp是temporary的縮寫，代表一個“臨時”的變量.   
      *return語句用於退出函数。    
      
-     
-     
-
-    
     
     
 2. What's a linked-list?
@@ -63,8 +57,7 @@ I'm 永琪。Here is my weekly learning notes. :)
    
   > cf.array:  
    ＊優點：  
-   （１）較Linked list為節省記憶體空間. 
-   
+   （１）較Linked list為節省記憶體空間.  
    （２）只要利用index即可在O(1)時間對Array的資料做存取. 
    
    ～補充O(1)：陣列讀取:代表著不管你輸入多少個東西，程式都會在**同一個時間跑完**. 
