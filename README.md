@@ -74,9 +74,18 @@ I'm 永琪。Here is my weekly learning notes. :)
 
 ## week 3
  > Topic : Stack and Queue
-   * stack 疊盤，後進先出/像是復原（在儲存前都存在這)
-   * queue 排隊不能插隊，先進先出/一次只能做一件事
-1. stack and queue 都是一種儲存資料的方式
+   * stack 疊盤，後進先出/像是復原（在儲存前都存在這)  
+   #兩個指令  
+    ＿push( )：新增元素至陣列的尾端，並回傳陣列的新長度。  
+    ＿pop( )：刪除且回傳陣列的最後一個元素。  
+    
+   * queue 排隊不能插隊，先進先出/一次只能做一件事. 
+   #兩個指令  
+   ＿shift( )刪除且回傳陣列的第一個元素。  
+   ＿push( )：新增元素至陣列的尾端，並回傳陣列的新長度。    
+   
+   
+ stack and queue 都是一種儲存資料的方式
   
   
 ## week 4
@@ -88,7 +97,7 @@ I'm 永琪。Here is my weekly learning notes. :)
 
 
 2.**Quick Sort**. 
->像二分法，分成左邊部分和右邊部分
+>像二分法，分成左邊部分和右邊部分，把大問題分成小問題處理
 
 *簡單概念：有一串list，取一個點當“基準點”，右邊都比他小（想成一個list，裡面是亂的），左邊都比他大（想成另一個list，亂的），現有兩個list，重複步驟。
 *適用於**資料量大**時。
@@ -113,8 +122,10 @@ c.對「第一個node」進行MaxHeapify()。
 
 
 **********************************************************
-#資料來源：
+#資料來源：    
 
+Stack and Queue：https://ithelp.ithome.com.tw/articles/10205260
+quick sort:http://alrightchiu.github.io/SecondRound/comparison-sort-quick-sortkuai-su-pai-xu-fa.html
 heap sort:http://alrightchiu.github.io/SecondRound/comparison-sort-heap-sortdui-ji-pai-xu-fa.html
 
 
