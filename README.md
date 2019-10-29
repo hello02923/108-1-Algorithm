@@ -102,7 +102,7 @@ I'm 永琪。Here is my weekly learning notes. :)
 
 ## week6  
 
-1.**heap sort**. 
+1.**Heap sort**. 
 > 特性：「parent-child」之關係，從左往右. 
 > 分成：max heap(大到小)/min heap(小到大)    
 
@@ -115,6 +115,9 @@ a.把「第一個node」和「最後一個node」互換位置。
 b.假裝最後一個node消失不見.   
 c.對「第一個node」進行MaxHeapify()。    
 
+
+2.**Merge sort**. 
+>
 
 **********************************************************
 #資料來源：    
