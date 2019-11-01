@@ -2,10 +2,10 @@
 I'm 永琪。Here is my weekly learning notes. :)
   
 ## Content
-- [week 2] 
-- [week 3]
-- [week 4]
-- [week 6]
+- [week 2](https://github.com/hello02923/lai#week-2). 
+- [week 3](https://github.com/hello02923/lai#week-3). 
+- [week 4](https://github.com/hello02923/lai#week-4). 
+- [week 6](https://github.com/hello02923/lai#week-6). 
 
 
 
