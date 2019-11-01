@@ -13,3 +13,9 @@
    
  stack and queue 都是一種儲存資料的方式
   
+  
+  
+  
+  #資料來源：    
+
+Stack and Queue：https://ithelp.ithome.com.tw/articles/10205260
