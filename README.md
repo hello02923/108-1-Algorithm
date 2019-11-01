@@ -102,7 +102,7 @@ I'm 永琪。Here is my weekly learning notes. :)
 
 ## week6  
 
-1.**Heap sort**. 
+1.**Heap sort推機排序法**. 
 > 特性：「parent-child」之關係，從左往右. 
 > 分成：max heap(大到小)/min heap(小到大)    
 
@@ -116,10 +116,18 @@ b.假裝最後一個node消失不見.
 c.對「第一個node」進行MaxHeapify()。    
 
 
-2.**Merge sort**. 
->
+2.**Merge sort合併排序法**. 
+> 簡單概念：“分裂”到最小，再進行“合併”。  
+
+> 方法：遞迴法Top-down/疊代法Bottom-up. 
+
+
 
 **********************************************************
+
+>##時間複雜度：完全地執行程式所需的計算機時間，重點開始用使用的時間  
+
+>##空間複雜度：完全地執行程式所需的記憶體量
 #資料來源：    
 
 Stack and Queue：https://ithelp.ithome.com.tw/articles/10205260
