@@ -1,0 +1,6 @@
+#heap&merge 比較  
+>Heap sort是比merge sort還要來的**快速**, 但是heap sort 是in-place sorting(只需一額外記錄空間) , 也就是說它不像merge sort 每次method call 都需要去跟記憶體要一塊位置,但整體來說Heap sort 是比merge sort還要好的 .  
+  
+  
+![image](https://github.com/hello02923/lai/blob/master/image/截圖%202019-11-07%20下午7.23.15.png)
+
