@@ -9,7 +9,6 @@
 
 
 ###heapsort 參考連結:    
-https://medium.com/appworks-school/初學者學演算法-排序法進階-合併排序法-6252651c6f7e. 
 https://www.youtube.com/watch?v=MtQL_ll5KhQ.   
 https://jason-chen-1992.weebly.com/home/selection-merge-heap. 
 http://notepad.yehyeh.net/Content/Algorithm/Sort/Heap/Heap.php. 
@@ -18,6 +17,7 @@ http://alrightchiu.github.io/SecondRound/comparison-sort-heap-sortdui-ji-pai-xu-
 
 
 ###mergesort 參考資料：  
+https://medium.com/appworks-school/初學者學演算法-排序法進階-合併排序法-6252651c6f7e. 
 http://alrightchiu.github.io/SecondRound/comparison-sort-merge-sorthe-bing-pai-xu-fa.html。   
 https://jason-chen-1992.weebly.com/home/selection-merge-heap. 
 http://spaces.isu.edu.tw/upload/18833/3/web/sorting.htm
