@@ -1,5 +1,8 @@
 >hw2. 
-[詳細筆記](https://github.com/hello02923/lai/tree/master/content/week6#week6). 
+[詳細筆記](https://github.com/hello02923/lai/tree/master/content/week6#week6).   
+#heap&merge 比較. 
+
+
 ###heapsort 參考連結:https://www.youtube.com/watch?v=MtQL_ll5KhQ. 
 
 ###mergesort 參考資料：http://alrightchiu.github.io/SecondRound/comparison-sort-merge-sorthe-bing-pai-xu-fa.html。    
