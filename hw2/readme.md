@@ -2,8 +2,12 @@
 [詳細筆記](https://github.com/hello02923/lai/tree/master/content/week6#week6)
 
 
-heap. 
-merge. 
+#流程圖。
+
+heap![](heap Diagram.png).   
+
+merge![](mergeDiagram.png). 
+ 
 
 
 ###mergesort 參考資料：http://alrightchiu.github.io/SecondRound/comparison-sort-merge-sorthe-bing-pai-xu-fa.html。  
