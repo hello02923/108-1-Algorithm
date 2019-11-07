@@ -1,6 +1,5 @@
 >hw2. 
-
-- [詳細筆記](https://github.com/hello02923/lai/tree/master/content/week6#week6)
+[詳細筆記](https://github.com/hello02923/lai/tree/master/content/week6#week6)
 
 
 heap. 
