@@ -1,17 +1,17 @@
 ###### merge_sort_ID.py
-arr = [2,-3,4,11,-6,5.3,7]
+nums = [2,-3,4,11,-6,5.3,7]
 class Solution(object):
-    def merge_sort(self,array):
+    def merge_sort(self,nums):
         """
         :type nums: List[int] ex:[3,2,-4,6,4,2,19],[5,1,1,2,0,0]
         :rtype: List[int] ex:[-4,2,2,3,4,6,19],[0,0,1,1,2,5]
         """
-        if len(array) <= 1:        
-            return array
+        if len(nums) <= 1:        
+            return nums
         else:        #####拆到只剩下一個，這裡是不耗時的
-            middle=len(array)//2
-            left_array=array[:middle]
-            right_array=array[middle:]
+            middle=len(nums)//2
+            left_array=nums[:middle]
+            right_array=nums[middle:]
             merge_sort(left_array)
             merge_sort(right_array)
 
