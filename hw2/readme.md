@@ -6,5 +6,7 @@ heap.
 merge. 
 
 
-###mergesort 參考資料：http://alrightchiu.github.io/SecondRound/comparison-sort-merge-sorthe-bing-pai-xu-fa.html。
+###mergesort 參考資料：http://alrightchiu.github.io/SecondRound/comparison-sort-merge-sorthe-bing-pai-xu-fa.html。  
+
 ###這個資料寫得非常清楚好懂，基本上merge 就是比完直接加在新的陣列，寫法就是append或是直接＋＝ 之類的看個人用法。  
+###heapsort 參考連結:https://www.youtube.com/watch?v=MtQL_ll5KhQ
