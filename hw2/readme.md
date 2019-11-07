@@ -8,7 +8,8 @@
 ![image](https://github.com/hello02923/lai/blob/master/image/截圖%202019-11-07%20下午7.23.15.png)
 
 
-###heapsort 參考連結:  
+###heapsort 參考連結:    
+https://medium.com/appworks-school/初學者學演算法-排序法進階-合併排序法-6252651c6f7e. 
 https://www.youtube.com/watch?v=MtQL_ll5KhQ.   
 https://jason-chen-1992.weebly.com/home/selection-merge-heap. 
 http://notepad.yehyeh.net/Content/Algorithm/Sort/Heap/Heap.php. 
