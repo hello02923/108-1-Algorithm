@@ -28,9 +28,9 @@ http://spaces.isu.edu.tw/upload/18833/3/web/sorting.htm
 
 #流程圖。
 
-heap![](heap_sort.png).   
+heap![](https://github.com/hello02923/lai/blob/master/image/heap_sort.png).   
 
-merge![](mergeDiagram.png). 
+merge![](https://github.com/hello02923/lai/blob/master/image/merge_sort.png). 
  
 
 
