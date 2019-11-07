@@ -1,5 +1,6 @@
 >hw2. 
 [詳細筆記](https://github.com/hello02923/lai/tree/master/content/week6#week6). 
+##
 1.**Heap sort推機排序法**. 
 
 > Heap 利用在資料結構中二元樹的堆積樹來做資料排序，以改善選擇排序需要做的執行次數。  
