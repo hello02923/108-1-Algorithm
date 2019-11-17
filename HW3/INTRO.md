@@ -28,7 +28,7 @@ ____.以下有三種可能
   solve3:將欲刪除之node的rightchild往連上node的parent，往下連上leftchild. 
   
  圖片說明：
- ![](delete_case3png)
+ ![](image/deletecase.png)
       
 
 #search(搜尋資料):  
