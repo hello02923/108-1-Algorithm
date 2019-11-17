@@ -29,6 +29,13 @@ ____.以下有三種可能
   
  圖片說明：
  ![](https://github.com/hello02923/lai/blob/master/image/deletecase.png)
+ 
+ **Summary:**
+先以Search()確認想要刪除的node是否存在tree中；
+把真正會被釋放記憶體的pointer調整成「至多只有一個child」的node；
+把真正會被釋放記憶體的node的child指向新的parent；
+把真正會被釋放記憶體的node的parent指向新的child；
+若真正會被釋放記憶體是「替身」，再把替身的資料放回BST中。
       
 
 #search(搜尋資料):  
@@ -38,3 +45,9 @@ ____.以下有三種可能
   
 
 ##上面這三項操作的時間複雜度皆為O(height)
+
+參考資料：  
+http://alrightchiu.github.io/SecondRound/binary-search-tree-introjian-jie.html  
+http://alrightchiu.github.io/SecondRound/binary-search-tree-searchsou-xun-zi-liao-insertxin-zeng-zi-liao.html  
+http://alrightchiu.github.io/SecondRound/binary-search-tree-searchsou-xun-zi-liao-insertxin-zeng-zi-liao.html
+
