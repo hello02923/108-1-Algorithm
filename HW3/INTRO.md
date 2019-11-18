@@ -28,6 +28,8 @@ ____.以下有三種可能
   solve3:將欲刪除之node的rightchild往連上node的parent，往下連上leftchild. 
   
  圖片說明：
+ ![](https://github.com/hello02923/lai/blob/master/image/deletecase1.png)
+ ![](https://github.com/hello02923/lai/blob/master/image/deletecase2.png)
  ![](https://github.com/hello02923/lai/blob/master/image/deletecase.png)
  
  **Summary:**
