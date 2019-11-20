@@ -25,12 +25,19 @@ ____.以下有三種可能
   
   Case3：欲刪除之node有兩個child pointer. 
   
-  solve3:將欲刪除之node的rightchild往連上node的parent，往下連上leftchild. 
+  solve3:以下有兩種方式：  
   
+  (a)從欲刪除的node的**左邊**樹狀結構下找出**最大**. 
+  
+  (b)從欲刪除的node的**右邊**樹狀結構下找出**最小**
+      
+      放在欲刪除的node的位置
+      
+      
  圖片說明：
  ![](https://github.com/hello02923/lai/blob/master/image/deletecase1.png)
  ![](https://github.com/hello02923/lai/blob/master/image/deletecase2.png)
- ![](https://github.com/hello02923/lai/blob/master/image/deletecase.png)
+ ![]()
  
  **Summary:**
 先以Search()確認想要刪除的node是否存在tree中；
