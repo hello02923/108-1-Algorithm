@@ -1,4 +1,3 @@
-
 class TreeNode(object):
     def __init__(self,x):
         
@@ -99,6 +98,7 @@ class Solution(object):
                     a[0] = a[0]+1
                 dfs_a(root.left, target)
                 dfs_a(root.right, target)
+                
         dfs_a(root, target)
         self.delete(root, target)
 
