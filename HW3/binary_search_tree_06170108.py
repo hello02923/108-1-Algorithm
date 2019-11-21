@@ -95,7 +95,7 @@ class Solution(object):
         def dfs_a(root, target):
             if root:
                 if root.val == target:
-                    a[0] = a[0]+1
+                    a[0]+=1
                 dfs_a(root.left, target)
                 dfs_a(root.right, target)
                 
