@@ -54,9 +54,10 @@ class Solution(object):
             root.right = self.delete(root.right,target)
 
         else:
+            ##no kid
             if root.left == None and root.right == None:
                 root = None
-        
+            ###one kid
             elif (root.left == None) and root.right:
                 if root.left:
                     root = root.left
@@ -71,7 +72,7 @@ class Solution(object):
                 if root.right:
                     root = root.right
                     self.delete(root, target)
-
+            ##two kid
             elif node.left and node.right:
                 root.val = self.minValueNode(root).val
                 root.right = self.delete(self.minValueNode(root), target)
