@@ -1,4 +1,6 @@
-
+##時間與空間複雜度
+![](https://github.com/hello02923/lai/blob/master/image/截圖%202019-11-21%20下午9.39.38.png)
+from https://en.wikipedia.org/wiki/Binary_search_tree
 
 ##insert(新增資料):  
 >可以視為Search()的延伸.   
@@ -37,7 +39,7 @@ ____.以下有三種可能
  圖片說明：
  ![](https://github.com/hello02923/lai/blob/master/image/deletecase1.png)
  ![](https://github.com/hello02923/lai/blob/master/image/deletecase2.png)
- ![]()
+
  
  **Summary:**
 先以Search()確認想要刪除的node是否存在tree中；
@@ -52,6 +54,9 @@ ____.以下有三種可能
   
   2.Current移動到NULL，表示搜尋失敗。KEY與Current的key相同，表示搜尋成功；
   
+##modify(修改)：
+有個簡單的想法：把要刪掉的刪掉，算要刪幾次，再加幾次進來。
+
 
 ##上面這三項操作的時間複雜度皆為O(height)
 
