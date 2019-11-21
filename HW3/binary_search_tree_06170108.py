@@ -54,10 +54,9 @@ class Solution(object):
             root.right = self.delete(root.right,target)
 
         else:
-            ##no kid
             if root.left == None and root.right == None:
                 root = None
-            ###one kid
+        
             elif (root.left == None) and root.right:
                 if root.left:
                     root = root.left
@@ -72,8 +71,8 @@ class Solution(object):
                 if root.right:
                     root = root.right
                     self.delete(root, target)
-            ##two kid
-            elif node.left and node.right:
+
+            elif root.left and root.right:
                 root.val = self.minValueNode(root).val
                 root.right = self.delete(self.minValueNode(root), target)
                 
@@ -101,19 +100,13 @@ class Solution(object):
             
 
     def modify(self, root, target, new_val):
-        a = [0]
-        def dfs_a(root, target):
-            if root:
-                if root.val == target:
-                    a[0]+=1
-                dfs_a(root.left, target)
-                dfs_a(root.right, target)
-                
-        dfs_a(root, target)
-        self.delete(root, target)
-
-        for i in range(a[0]):
-            self.insert(root,new_val)
+        if root:
+            if root.val == target:
+                root.val = new_val       
+        if root.left:
+            self.modify(root.left, target, new_val)
         
+        if root.right:
+            self.modify(root.right, target, new_val)
+            
         return root
-        
