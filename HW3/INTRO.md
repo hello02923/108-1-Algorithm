@@ -1,13 +1,13 @@
 
 
-#insert(新增資料):  
+##insert(新增資料):  
 >可以視為Search()的延伸.   
 
 1.根據規則，先找到將要新增之node適合的位置  
 
 2.再將欲新增的node接上tree. 
 
-#delete(刪除資料): 
+##delete(刪除資料): 
 
   1.執行刪除資料(被刪除的node稱為A),必須讓刪除A後的tree仍然維持tree的性質。  
   
@@ -47,7 +47,7 @@ ____.以下有三種可能
 若真正會被釋放記憶體是「替身」，再把替身的資料放回BST中。
       
 
-#search(搜尋資料):  
+##search(搜尋資料):  
   1.利用Key(L)<Key(Current)<Key(R)，判斷Current應該往left subtree走，還是往right subtree走。
   
   2.Current移動到NULL，表示搜尋失敗。KEY與Current的key相同，表示搜尋成功；
