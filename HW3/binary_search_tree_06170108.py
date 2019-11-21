@@ -88,7 +88,7 @@ class Solution(object):
                 else:
                     return self.search(root.right,target)
         while target == root.val:
-            return True
+            return root
             
 
     def modify(self, root, target, new_val):
