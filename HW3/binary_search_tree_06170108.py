@@ -32,44 +32,53 @@ class Solution(object):
                 root.right = newnode
             else:
                 self.insert(root.right,val)
-                        
+    
+
+        
+    def minValueNode(self,node):
+        curr = node
+        while(curr.left != None):
+            curr = curr.left
+            return curr 
+
 
     def delete(self, root, target):  
         
         if root is None: 
             return root
+          
+        if target < root.val:
+               root.left = self.delete(root.left,target)
+                
+        elif target > root.val:
+            root.right = self.delete(root.right,target)
+
+        else:
+            if root.left == None and root.right == None:
+                root = None
         
-        while target!=root.val:    
-            ####no child
-            if target < root.val:
-                root.left = self.delete(root.left,target)
-            elif target > root.val:
-                root.right = self.delete(root.right,target)
+            elif (root.left == None) and root.right:
+                if root.left:
+                    root = root.left
+                    self.delete(root, target)
+                if root.right:
+                    root = root.right
+                    self.delete(root, target)
+            elif root.left and (root.right == None):
+                if root.left:
+                    root = root.left
+                    self.delete(root, target)
+                if root.right:
+                    root = root.right
+                    self.delete(root, target)
 
-                ####one child 
-            else:
-                if root.left == None : 
-                    temp = root.right  
-                    root = None 
-                    return temp  
+            elif node.left and node.right:
+                root.val = self.minValueNode(root).val
+                root.right = self.delete(self.minValueNode(root), target)
+                
+        return root
 
-                elif root.right == None : 
-                    temp = root.left  
-                    root = None
-                    return temp 
 
-                ###two child 
-                temp = root.right
-                mininode = temp.val
-                while temp.left:
-                    temp=temp.left
-                    mininode=temp.val
-
-                root.val=mininode
-                root.right = self.delete(root.right,root.val)  
-
-            return root
-        
 
     def search(self, root, target):
         
@@ -106,5 +115,4 @@ class Solution(object):
             self.insert(root,new_val)
         
         return root
-        
         
