@@ -39,9 +39,11 @@ class Solution(object):
         
     def minValueNode(self,node):
         curr = node
-        while(curr.left != None):
-            curr = curr.left
-            return curr 
+        point = node.right
+        while(point.left != None):
+            curr = point
+            point=point.left           
+            return point
 
 
     def delete(self, root, target):  
@@ -61,9 +63,7 @@ class Solution(object):
                 root = None
             ##one kid
             elif (root.left == None) and root.right:
-                if root.left:
-                    root = root.left
-                    self.delete(root, target)
+
                 if root.right:
                     root = root.right
                     self.delete(root, target)
@@ -71,9 +71,8 @@ class Solution(object):
                 if root.left:
                     root = root.left
                     self.delete(root, target)
-                if root.right:
-                    root = root.right
-                    self.delete(root, target)
+    
+                    
             ##two kid
             elif root.left and root.right:
                 root.val = self.minValueNode(root).val
