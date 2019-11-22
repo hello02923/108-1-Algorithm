@@ -59,7 +59,7 @@ ____.以下有三種可能
  ![](https://github.com/hello02923/lai/blob/master/image/deletecase1.png)
  ![](https://github.com/hello02923/lai/blob/master/image/deletecase2.png)
  ![](https://i.imgur.com/PA0iIDs.png)
- ![](https://i.imgur.com/AsUrNW7.png)
+ ![](https://i.imgur.com/nCNgEZW.png)
  
  **Summary:**
 先以Search()確認想要刪除的node是否存在tree中；
