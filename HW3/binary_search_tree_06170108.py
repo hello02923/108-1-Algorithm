@@ -24,14 +24,16 @@ class Solution(object):
         if root.val >= newnode.val:
             if root.left == None:
                 root.left = newnode
+                return root.left
             else:
-                self.insert(root.left,val)
+                return self.insert(root.left,val)
                     
         else:
             if root.right == None:
                 root.right = newnode
+                return root.right
             else:
-                self.insert(root.right,val)
+                return self.insert(root.right,val)
     
 
         
@@ -54,9 +56,10 @@ class Solution(object):
             root.right = self.delete(root.right,target)
 
         else:
+            ##no kid
             if root.left == None and root.right == None:
                 root = None
-        
+            ##one kid
             elif (root.left == None) and root.right:
                 if root.left:
                     root = root.left
@@ -71,7 +74,7 @@ class Solution(object):
                 if root.right:
                     root = root.right
                     self.delete(root, target)
-
+            ##two kid
             elif root.left and root.right:
                 root.val = self.minValueNode(root).val
                 root.right = self.delete(self.minValueNode(root), target)
@@ -100,6 +103,7 @@ class Solution(object):
             
 
     def modify(self, root, target, new_val):
+        ###找到回來繼續改
         if root:
             if root.val == target:
                 root.val = new_val       
