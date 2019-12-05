@@ -17,9 +17,9 @@ class MyHashSet:
         keycode = int(h.hexdigest(),16)
         index = keycode % self.capacity
 
-        if not self.data[index]:
+        if not self.data[index]:##沒有就加上去
             self.data[index] = ListNode(keycode)
-        else:
+        else:##有就再最後面加上去
             temp = self.data[index]
             while temp.next:
                 temp = temp.next
@@ -31,7 +31,7 @@ class MyHashSet:
         keycode = int(h.hexdigest(),16)
         index = keycode % self.capacity
         
-        if not self.data[index]:
+        if not self.data[index]:##先找有沒有這個東西
             return False
         else:
             temp=self.data[index]
@@ -53,14 +53,14 @@ class MyHashSet:
         h.update(key.encode("utf-8"))
         keycode = int(h.hexdigest(),16)
         index = keycode % self.capacity 
-        if self.data[index] is None:
+        if self.data[index] is None:##沒有
             return False     
         else:
             temp = self.data[index]
-            while temp:
+            while temp:##有
                 if temp.val == keycode:
                     return True
-                elif temp.val != keycode:
+                elif temp.val != keycode:##往下
                     temp = temp.next
                    
             return False
