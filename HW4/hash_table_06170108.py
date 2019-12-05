@@ -36,12 +36,12 @@ class MyHashSet:
         else:
             temp=self.data[index]
             if temp.val == keycode:
-                if temp.next is True:
+                if temp.next is True:##.next有的話就直接連再下一個
                     self.data[index]=temp.next
-                else:
+                else:##沒有的話就是直接刪掉
                     self.data[index] = None
             else:
-                while temp:
+                while temp:##往鏈子下繼續找
                     if temp.next == keycode:
                         temp.next = temp.next.next
                         return
@@ -64,4 +64,3 @@ class MyHashSet:
                     temp = temp.next
                    
             return False
-
