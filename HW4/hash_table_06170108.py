@@ -53,14 +53,14 @@ class MyHashSet:
         h.update(key.encode("utf-8"))
         keycode = int(h.hexdigest(),16)
         index = keycode % self.capacity 
-        if self.data[index] is None:##沒有
+        if self.data[index] is None:##找不到的情況
             return False     
         else:
             temp = self.data[index]
-            while temp:##有
+            while temp:##找到的情況以下
                 if temp.val == keycode:
                     return True
-                elif temp.val != keycode:##往下
+                elif temp.val != keycode:##一條鍊子繼續往下找
                     temp = temp.next
                    
             return False
