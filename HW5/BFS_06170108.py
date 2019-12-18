@@ -10,10 +10,10 @@ class Graph:
 
     def BFS(self, s): 
         queue=[s]
-        seen = [s]
-        while queue:
-            vertex=queue.pop()
-            for w in self.graph[vertex]:
+        seen = [s]##一開始要先放
+        while queue:##先進先出
+            vertex=queue.pop(0)##把第一個拿出來
+            for w in self.graph[vertex]:##
                 if w not in seen:
                     queue.append(w)
                     seen.append(w)
@@ -22,11 +22,11 @@ class Graph:
 
     def DFS(self, s):
         stack=[s]
-        seen=[]
-        while stack:
+        seen=[]##
+        while stack:##
             vertex=stack.pop()
             seen.append(vertex)
-            for w in self.graph[vertex]:
+            for w in self.graph[vertex]:##
                 if w not in seen:
                     stack.append(w)
                     
