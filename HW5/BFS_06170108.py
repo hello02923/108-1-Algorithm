@@ -23,7 +23,7 @@ class Graph:
     def DFS(self, s):
         stack=[s]
         seen=[]##
-        while stack:##
+        while stack:##先進後出
             vertex=stack.pop()
             seen.append(vertex)
             for w in self.graph[vertex]:##
