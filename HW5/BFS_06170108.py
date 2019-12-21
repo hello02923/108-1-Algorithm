@@ -27,9 +27,9 @@ class Graph:
             vertex=stack.pop()##把最後一個拿出來
             seen.append(vertex)
             for w in self.graph[vertex]:
-                if w not in seen:
+                if w not in seen and w not in stack:
                     stack.append(w)
-                    
         return seen
+    
 
 
