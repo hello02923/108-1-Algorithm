@@ -13,8 +13,8 @@ I'm 永琪。Here is my weekly learning notes. :)
 - [week 9](https://github.com/hello02923/lai/tree/master/content/week9):Binary Search Tree. *   [程式碼](HW3/binary_search_tree_06170108.py)
 - [week 10]():midterm. 
 - [week 11]():Red Black Tree. 
-- [week 12]():Hash Table*   [程式碼](HW4/hash_table_06170108.py)
-- [week 13]():BFS/DFSe*   [程式碼](HW5/BFS_06170108.py)
+- [week 12](HW4/table學習歷程.ipynb):Hash Table*   [程式碼](HW4/hash_table_06170108.py)
+- [week 13](HW5/BFS原理、學習歷程、流程圖.md):BFS/DFS*   [程式碼](HW5/BFS_06170108.py)
 - [week 14](HW6/dijkstra&kruskal原理.md):Minimum Spanning Tree - Kruskal*   [程式碼](HW6/Dijkstra_06170108.py)
 - [week 15](HW6/dijkstra&kruskal原理.md):Shortest Path - Dijkstra*   [程式碼](HW6/Dijkstra_06170108.py)
 - [week 16]():
