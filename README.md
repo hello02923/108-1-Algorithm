@@ -6,7 +6,7 @@ I'm 永琪。Here is my weekly learning notes. :)
 - [week 2](https://github.com/hello02923/lai/tree/master/content/week2#week-2):linked-list. 
 - [week 3](https://github.com/hello02923/lai/tree/master/content/week3):Stack_and_Queue. 
 - [week 4](https://github.com/hello02923/lai/tree/master/content/week4#week-4):insertion_sort*   [程式碼](practice/insertionSortList.py)
-- [week 4](https://github.com/hello02923/lai/tree/master/content/week4#week-4):Quick_Sort. 
+- [week 4](https://github.com/hello02923/lai/tree/master/content/week4#week-4):Quick_Sort. *   [程式碼](hw/quicksort_code2.ipynb)*   [程式碼](https://github.com/hello02923/lai/tree/master/hw)
 - [week 6](https://github.com/hello02923/lai/tree/master/content/week6#week6):heap_sort. *   [程式碼](HW2/heapsort/heap_sort_06170108.py)
 - [week 7](https://github.com/hello02923/lai/tree/master/content/week6#week6):merge_sort.*   [程式碼](HW2/mergesort/merge_sort_06170108.py)
 - [week 8](https://github.com/hello02923/lai/tree/master/content/week4#week-7):Binary tree. 
