@@ -15,8 +15,8 @@ I'm 永琪。Here is my weekly learning notes. :)
 - [week 11]():Red Black Tree. 
 - [week 12]():Hash Table*   [程式碼](HW4/hash_table_06170108.py)
 - [week 13]():BFS/DFSe*   [程式碼](HW5/BFS_06170108.py)
-- [week 14]():Minimum Spanning Tree - Kruskal*   [程式碼](HW6/Dijkstra_06170108.py)
-- [week 15]():Shortest Path - Dijkstra*   [程式碼](HW6/Dijkstra_06170108.py)
+- [week 14](HW6/dijkstra&kruskal原理.md):Minimum Spanning Tree - Kruskal*   [程式碼](HW6/Dijkstra_06170108.py)
+- [week 15](HW6/dijkstra&kruskal原理.md):Shortest Path - Dijkstra*   [程式碼](HW6/Dijkstra_06170108.py)
 - [week 16]():
 - [week 17]():
 - [week 18]():
