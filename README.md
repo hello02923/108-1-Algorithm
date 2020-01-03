@@ -9,7 +9,7 @@ I'm 永琪。Here is my weekly learning notes. :)
 - [week 5](https://github.com/hello02923/lai/tree/master/content/week5):Quick_Sort. *   [程式碼](hw/quicksort_code2.ipynb)*   [流程圖](https://github.com/hello02923/lai/tree/master/hw)
 - [week 6](https://github.com/hello02923/lai/tree/master/content/week6#week6):heap_sort. *   [程式碼](HW2/heapsort/heap_sort_06170108.py)
 - [week 7](https://github.com/hello02923/lai/tree/master/content/week6#week6):merge_sort.*   [程式碼](HW2/mergesort/merge_sort_06170108.py)
-- [week 8](https://github.com/hello02923/lai/tree/master/content/week4#week-7):Binary tree. 
+- [week 8](https://github.com/hello02923/lai/tree/master/content/week8):Binary tree. 
 - [week 9](https://github.com/hello02923/lai/tree/master/content/week9):Binary Search Tree. *   [程式碼](HW3/binary_search_tree_06170108.py)
 - [week 10]():midterm. 
 - [week 11](https://github.com/hello02923/lai/tree/master/content/week11):Red Black Tree. 
