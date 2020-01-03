@@ -27,7 +27,7 @@ class Graph():
         dict = {str(s):0} #字典形式
         
         for i in nodes:
-            distance[i]=g.graph[s][i]  #s開始到各點
+            distance[i]=self.graph[s][i]  #s開始到各點
 
         k=pre=s
         
@@ -35,10 +35,10 @@ class Graph():
             mid_distance=float('inf')
             for v in visited:
                 for d in nodes:
-                    new_distance = g.graph[s][v]+g.graph[v][d] #再累積上去
-                    if new_distance < mid_distance and g.graph[v][d]!=0:
+                    new_distance = self.graph[s][v]+self.graph[v][d] #再累積上去
+                    if new_distance < mid_distance and self.graph[v][d]!=0:
                         mid_distance=new_distance
-                        g.graph[s][d]=new_distance  # 更新
+                        self.graph[s][d]=new_distance  # 更新
                         k=d
                         pre=v
             distance[k]=mid_distance  # 最短路徑
@@ -49,6 +49,7 @@ class Graph():
             for i in range (0,self.V):
                 dict[str(i)] = distance[i]
         return dict
+    
     
     def Kruskal(self):
         
