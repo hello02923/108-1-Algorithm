@@ -40,7 +40,7 @@ class Graph():
                         k=d
                         pre=v
             distance[k]=mid_distance  # 最短路徑
-            # 
+            
             visited.append(k)
             nodes.remove(k)
             
