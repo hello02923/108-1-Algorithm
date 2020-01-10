@@ -30,6 +30,14 @@ CS50:https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA.
 - [week 17]():期末考
 - [week 18]():回家投票
 
+# HOMEWORK
+- [HW1](https://github.com/hello02923/lai/blob/master/HW1/readme.md):quicksort. 
+- [HW2](https://github.com/hello02923/lai/tree/master/HW2):heap&merge. 
+- [HW3](https://github.com/hello02923/lai/tree/master/HW3):bst. 
+- [HW4](https://github.com/hello02923/lai/tree/master/HW4):hash table. 
+- [HW5](https://github.com/hello02923/lai/tree/master/HW5):bfs&dfs. 
+- [HW6](https://github.com/hello02923/lai/tree/master/HW6):Dijkstra&Kruskal. 
+
 
 # 心得
 不得不說，以前累積的很不扎實，從一開始codesignal裡，才發現原來像是一些基本的語法都沒看過，很多常識也忘記。然後直到作業開始發現像是for/while那些用法其實沒有真正的理解運用，會用錯啊搞錯的，所以寫作業非常痛苦，常常我從週五發作業週六開始寫弄了一整個禮拜，就覺得心很累，花了好久才想出來，又看看比較厲害的人可能一個晚上就明白，就十分挫折好像只有自己麼笨。在這條路上就發現自己算是比較沒天份的，但是其實整堂課給我很正面的感覺，或許我未來不用這些，但是現在終於算是有了一點點解決問題的能力了吧，可以用些笨方法起碼比一開始好很多了，克服一件不擅長的事對於我來說是收穫很大的。整體來說，的確是大學程式課堂中進步最大的，現在我基本都可以看懂程式碼在幹嘛，也能寫作業了。當然真的是很感謝教我很多的朋友，還有天跟地。
