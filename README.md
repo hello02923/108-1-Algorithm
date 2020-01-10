@@ -16,6 +16,7 @@
 
 *筆記專用：https://hackmd.io/?nav=overview. 
 
+*README小幫手：https://github.com/hello02923/markdown-syntax-zhtw#block
 
 ## Content. 
 - [week 1](https://github.com/hello02923/lai/tree/master/content/week1#week-1):sense. 
