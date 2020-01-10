@@ -1,7 +1,14 @@
 # 108_1_Data Structure and Algorithm
 # ABOUT ME
 永琪 :) 對程式碼天份不高/努力追上型/跨領域英文學程/排球人/狗奴／
-  
+
+# HELPER
+CS50:https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA. 
+
+方便放ipynb檔的：https://nbviewer.jupyter.org. 
+筆記專用：https://hackmd.io/?nav=overview. 
+
+
 ## Content. 
 - [week 1](https://github.com/hello02923/lai/tree/master/content/week1#week-1):sense. 
 - [week 2](https://github.com/hello02923/lai/tree/master/content/week2#week-2):linked-list. 
