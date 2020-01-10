@@ -1,11 +1,12 @@
 # 108_1_Data Structure and Algorithm
 # ABOUT ME
-永琪 :) 對程式碼天份不高/努力追上型/跨領域英文學程/排球人/狗奴／
+永琪 /巨3A/ 對程式碼天份不高/努力追上型/跨領域英文學程/排球人/／
 
 # HELPER
 CS50:https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA. 
 
 方便放ipynb檔的：https://nbviewer.jupyter.org. 
+
 筆記專用：https://hackmd.io/?nav=overview. 
 
 
