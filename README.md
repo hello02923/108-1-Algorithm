@@ -1,4 +1,11 @@
 # 108_1_Data Structure and Algorithm
+分成 
+[ABOUT ME]
+[HELPER]
+[Content]
+[EXTRA]
+[HOMEWORK] 
+[心得]
 # ABOUT ME
 永琪 /巨3A/ 對程式碼天份不高/努力追上型/跨領域英文學程/排球人/／
 
